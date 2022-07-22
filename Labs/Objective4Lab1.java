@@ -5,15 +5,15 @@ public class Objective4Lab1 {
 
     Scanner keyboard = new Scanner(System.in);
 
-    System.out.print("What is your first name?");
+    System.out.println("What is your first name?");
     String fname = keyboard.nextLine();
-    System.out.print("What is your last name?");
+    System.out.println("What is your last name?");
     String lname = keyboard.nextLine();
-    System.out.print("What is your favorite animal?");
+    System.out.println("What is your favorite animal?");
     String favoriteAnimal = keyboard.nextLine();
-    System.out.print("What is your favorite food?");
+    System.out.println("What is your favorite food?");
     String favoriteFood = keyboard.nextLine();
-    System.out.print("What is your favorite song?");
+    System.out.println("What is your favorite song?");
     String favoritSong = keyboard.nextLine();
 
     System.out.println("My name is " + fname + " " + lname);
